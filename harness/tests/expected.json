@@ -1,0 +1,146 @@
+[
+  {
+    "case": "guide-pass",
+    "script": "check_guide.py",
+    "args": [],
+    "expect": 0
+  },
+  {
+    "case": "guide-fail-frame",
+    "script": "check_guide.py",
+    "args": [],
+    "expect": 1
+  },
+  {
+    "case": "guide-fail-color",
+    "script": "check_guide.py",
+    "args": [],
+    "expect": 1
+  },
+  {
+    "case": "guide-fail-radius",
+    "script": "check_guide.py",
+    "args": [],
+    "expect": 1
+  },
+  {
+    "case": "guide-fail-spacing",
+    "script": "check_guide.py",
+    "args": [],
+    "expect": 1
+  },
+  {
+    "case": "guide-fail-fontsize",
+    "script": "check_guide.py",
+    "args": [],
+    "expect": 1
+  },
+  {
+    "case": "principles-pass",
+    "script": "check_principles.py",
+    "args": [
+      "--stage",
+      "s2"
+    ],
+    "expect": 0
+  },
+  {
+    "case": "principles-fail-p1-forbidden",
+    "script": "check_principles.py",
+    "args": [
+      "--stage",
+      "s2"
+    ],
+    "expect": 1
+  },
+  {
+    "case": "principles-fail-p1-button",
+    "script": "check_principles.py",
+    "args": [
+      "--stage",
+      "s2"
+    ],
+    "expect": 1
+  },
+  {
+    "case": "principles-fail-p1-reason",
+    "script": "check_principles.py",
+    "args": [
+      "--stage",
+      "s2"
+    ],
+    "expect": 1
+  },
+  {
+    "case": "principles-fail-p2-items",
+    "script": "check_principles.py",
+    "args": [
+      "--stage",
+      "s2"
+    ],
+    "expect": 1
+  },
+  {
+    "case": "principles-fail-p2-apply",
+    "script": "check_principles.py",
+    "args": [
+      "--stage",
+      "s2"
+    ],
+    "expect": 1
+  },
+  {
+    "case": "state-pass",
+    "script": "check_state.py",
+    "args": [
+      "--check",
+      "done"
+    ],
+    "expect": 0
+  },
+  {
+    "case": "state-fail-s1-missing",
+    "script": "check_state.py",
+    "args": [
+      "--check",
+      "done"
+    ],
+    "expect": 1
+  },
+  {
+    "case": "state-fail-s1-rejected",
+    "script": "check_state.py",
+    "args": [
+      "--check",
+      "done"
+    ],
+    "expect": 1
+  },
+  {
+    "case": "state-fail-s3-pick",
+    "script": "check_state.py",
+    "args": [
+      "--check",
+      "done"
+    ],
+    "expect": 1
+  },
+  {
+    "case": "ownership-pass",
+    "script": "check_ownership.py",
+    "args": [],
+    "expect": 0
+  },
+  {
+    "case": "ownership-fail-extra-file",
+    "script": "check_ownership.py",
+    "args": [],
+    "expect": 1
+  },
+  {
+    "case": "ownership-fail-wrong-folder",
+    "script": "check_ownership.py",
+    "args": [],
+    "expect": 1
+  }
+]

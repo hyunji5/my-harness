@@ -1,0 +1,56 @@
+{
+  "frames": [
+    {
+      "name": "store-review",
+      "width": 375,
+      "height": 812
+    }
+  ],
+  "nodes": [
+    {
+      "name": "card",
+      "fills": [
+        "#ffffff"
+      ],
+      "strokes": [
+        "#e6e6e6"
+      ],
+      "cornerRadius": 24,
+      "itemSpacing": 16,
+      "padding": [
+        24,
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "name": "cta",
+      "fills": [
+        "#000000"
+      ],
+      "cornerRadius": 50,
+      "padding": [
+        12,
+        24,
+        12,
+        24
+      ]
+    },
+    {
+      "name": "title",
+      "fontSize": 26,
+      "characters": "가게 신청 심사"
+    },
+    {
+      "name": "reason",
+      "fontSize": 16,
+      "characters": "AI 판단 이유: 서류 1개 빠짐"
+    },
+    {
+      "name": "btns",
+      "fontSize": 16,
+      "characters": "합격 보류 불합격"
+    }
+  ]
+}

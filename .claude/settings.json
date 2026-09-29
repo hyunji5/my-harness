@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(./design.md)",
+      "Edit(./prd.md)",
+      "Edit(./story-service.md)",
+      "Edit(./story-work.md)",
+      "Edit(./harness/scripts/**)"
+    ]
+  }
+}

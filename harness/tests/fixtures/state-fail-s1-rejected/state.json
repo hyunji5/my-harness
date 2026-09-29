@@ -1,0 +1,33 @@
+{
+  "screen": "store-review",
+  "keywords": [
+    "테스트"
+  ],
+  "stage": "S5",
+  "retries": {
+    "S1": 0,
+    "S3": 0,
+    "S4": 0
+  },
+  "approvals": [
+    {
+      "stage": "S1",
+      "by": "팀장님",
+      "result": "approved",
+      "date": "2026-09-29"
+    },
+    {
+      "stage": "S1",
+      "by": "팀장님",
+      "result": "rejected",
+      "date": "2026-09-29"
+    },
+    {
+      "stage": "S3",
+      "by": "내부 관계자",
+      "result": "approved",
+      "pick": 2,
+      "date": "2026-09-30"
+    }
+  ]
+}
